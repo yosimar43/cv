@@ -96,25 +96,25 @@ const Profile = () => {
 
         <Paragraph>
           Michael Sinisterra is a front-end developer with a passion for
-          creating experiences in the web.
+          creating experiences on the web.
         </Paragraph>
         <Paragraph>
-          In general, in his career, he has seen how with JavaScript we can
+          In general, in my career, I have seen how with JavaScript we can
           create things that the user loves to use. This is great because we can
-          create tools and create experiences that the user can connect .
+          create tools and create experiences that the user can connect with .
         </Paragraph>
         <Paragraph>
-          I loves to interacting with the tech community and that`&apos;`s why i
-          am always looking for new opportunities. Also i have a passion for
-          learning new things and i am always looking ways to create new tech
-          community .
+          I love interacting with the tech community and that&apos;s why I am
+          always looking for new opportunities. Also, I have a passion for
+          learning new things and I am always looking ways to create new tech
+          community.
         </Paragraph>
         <Paragraph>
-          I also enjoys mentoring. I trying to help people to learn new things
+          I also enjoy mentoring. I am trying to help people to learn new things
           and share with others.
         </Paragraph>
         <Paragraph>
-          My favorites CSS colors are tomato, rebeccapurple, and papayawhip.
+          My favorites CSS colors are tomato, rebeccapurple and papayawhip.
         </Paragraph>
         <br />
         <hr style={{ margin: "3rem 0px", display: "block" }} />

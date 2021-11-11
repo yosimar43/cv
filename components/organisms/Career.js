@@ -62,7 +62,7 @@ const Career = () => {
      subtitle: el.role,
      content: (
       <div className="projects-container">
-       <Image src={el.image} alt="" />
+       <Image src={el.image} alt="" width={400} height={200} />
        <Card title={el.title} text="" items={el.description} />
        <div className="tecnologies">
         <Paragraph>Tecnologies</Paragraph>

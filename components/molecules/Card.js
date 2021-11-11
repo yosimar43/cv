@@ -24,8 +24,10 @@ const Card = ({ title, subtitle, items, isInverted, style }) => {
       background: "var(--white)",
      }}
     />
-    {items.map((item) => (
-     <Paragraph isMarginless>{item}</Paragraph>
+    {items.map((item, id) => (
+     <Paragraph isMarginless key={id}>
+      {item}
+     </Paragraph>
     ))}
    </div>
    <style jsx>{`

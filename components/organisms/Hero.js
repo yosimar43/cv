@@ -10,7 +10,7 @@ const Hero = () => {
     const options = {
       strings: [
         "Welcome ",
-        "In this<strong> site</strong> you can <strong>know</strong> about me",
+        "On this<strong> site</strong> you can <strong>know</strong> about me",
         "I'm <strong>Michael</strong>",
       ],
       typeSpeed: 50,
@@ -37,8 +37,8 @@ const Hero = () => {
           </Heading>
 
           <Paragraph size="md">
-            Front-end developer,Expert in web technologies,my dreams are create
-            the future in the web.
+            Front-end developer, Expert in web technologies, my dreams are
+            create the future in the web.
           </Paragraph>
         </div>
       </Container>

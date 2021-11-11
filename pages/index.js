@@ -14,6 +14,15 @@ const index = () => {
           href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Lato&display=swap"
           rel="stylesheet"
         />
+        <meta
+          name="description"
+          content="Hi, I'am front-end developer , Expert in web technologies, know me here!!!.
+            create the future in the web.
+"
+        />
+        <meta name="keywords" content="HTML, CSS, JavaScript, CV,yosimar43," />
+        <meta name="author" content="Michael Sinisterra" />
+        <title>Welcome | cv</title>
       </Head>
       <Hero />
       <Profile />

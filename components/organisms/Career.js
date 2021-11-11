@@ -11,6 +11,8 @@ const projects = [
   {
     title: "awos.com",
     role: "Front-end",
+    subtitle: "type: personal project",
+
     description: [
       "awos.com is my personal web site, Currently it is in contruction, the idea is create a place for create a new tech community",
     ],
@@ -26,6 +28,7 @@ const projects = [
   },
   {
     title: "arrupi.jeluchu.com",
+    subtitle: "type: Freelance",
     role: "Front-end",
     description: [
       "Arrupi is an anime page, where you can share with the nimpone culture",
@@ -37,6 +40,7 @@ const projects = [
   {
     title: "ecomerce",
     role: "Front-end",
+    subtitle: "type: personal project",
     description: ["basic ecomerce to learn new tecnologies "],
     tecnologies: ["react", "styled-component", "Typescript", "redux"],
     image: "/images/projects/Arrupi.png",
@@ -44,6 +48,7 @@ const projects = [
   {
     title: "task-admin",
     role: "Front-end",
+    subtitle: "type: personal project",
     description: ["Single page aplication for manage task and create notes"],
     tecnologies: ["next.js", "redux", "firebase", "Typescript", "Tailwindcss"],
     image: "/images/projects/book-ez.png",
@@ -63,7 +68,11 @@ const Career = () => {
           content: (
             <div className="projects-container">
               <Image src={el.image} alt="" width={400} height={200} />
-              <Card title={el.title} text="" items={el.description} />
+              <Card
+                title={el.title}
+                subtitle={el.subtitle}
+                items={el.description}
+              />
               <div className="tecnologies">
                 <Paragraph>Tecnologies</Paragraph>
                 {el.tecnologies.map((item, index) => (

@@ -20,6 +20,7 @@ const index = () => {
             create the future in the web.
 "
         />
+        <meta property="og:image" content="/images/page.jpeg" />
         <meta name="keywords" content="HTML, CSS, JavaScript, CV,yosimar43," />
         <meta name="author" content="Michael Sinisterra" />
         <title>Welcome | cv</title>

@@ -10,8 +10,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta name="robots" content="index" />
+          <meta name="Googlebot" content="index" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
             rel="stylesheet"

@@ -9,11 +9,6 @@ const index = () => {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Lato&display=swap"
-          rel="stylesheet"
-        />
         <meta
           name="description"
           content="Hi, I'am front-end developer , Expert in web technologies, know me here!!!.

@@ -117,7 +117,8 @@ const Profile = () => {
           My favorites CSS colors are tomato, rebeccapurple, and papayawhip.
         </Paragraph>
         <br />
-        <hr />
+        <hr style={{ margin: "3rem 0px", display: "block" }} />
+        <br />
         <Heading size="md" isCentered>
           <strong>My</strong> knowledge <strong>and </strong> tools
         </Heading>

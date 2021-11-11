@@ -10,7 +10,9 @@ const Footer = () => {
   useEffect(() => {
     const loadImage = (entradas, observador) => {
       console.log(entradas, observador);
-      confetti();
+      entradas.forEach((entries) =>
+        entries.isIntersecting ? confetti() : null
+      );
     };
 
     const observador = new IntersectionObserver(loadImage, {

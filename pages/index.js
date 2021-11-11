@@ -18,6 +18,12 @@ const index = () => {
         <meta property="og:image" content="/images/page.jpeg" />
         <meta name="keywords" content="HTML, CSS, JavaScript, CV,yosimar43," />
         <meta name="author" content="Michael Sinisterra" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+          rel="stylesheet"
+        />
         <title>Welcome | cv</title>
       </Head>
       <Hero />

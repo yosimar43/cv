@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import "minireset.css/minireset.css";
+import '../styles/main.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default App;

@@ -15,9 +15,11 @@ const index = () => {
             create the future in the web.
 "
         />
+
         <meta property="og:image" content="/images/page.jpeg" />
         <meta name="keywords" content="HTML, CSS, JavaScript, CV,yosimar43," />
         <meta name="author" content="Michael Sinisterra" />
+        <link rel="icon" href="/icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

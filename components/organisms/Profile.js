@@ -36,10 +36,10 @@ const skills = [
 ];
 
 const formation = [
-  { title: "Sena", text: "Programing curse" },
-  { title: "platzi", text: "Wep development" },
+  { title: "Politécnico de Colombia", text: "Programing course" },
+  { title: "Platzi", text: "Wep development" },
   { title: "self-taught study", text: "Last features in web development" },
-  { title: "Colombo americano", text: "English Curse " },
+  { title: "Colombo americano", text: "English Course" },
 ];
 
 const books = [

@@ -36,6 +36,7 @@ const Card = ({ title, subtitle, items, isInverted, style }) => {
      padding: 30px 60px;
      margin: 15px 0;
      width: 100%;
+     border-radius: 5px;
     }
 
     .is-inverted {
